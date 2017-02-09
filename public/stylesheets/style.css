@@ -1,0 +1,88 @@
+body {
+  padding: 50px;
+  color: #7e7e7e;
+  font-family: 'Short Stack';
+}
+
+.header {
+  font-size: 56px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services-text {
+  font-family: 'Cambay';
+}
+
+.section-form {
+  text-align: center;
+}
+
+#header {
+  position: relative;
+}
+
+.facebook-link {
+  text-align: center;
+}
+
+
+
+.profile-pic {
+  width: 300px;
+  height: auto;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 27%;
+  z-index: 100;
+}
+
+.sub-header {
+  font-family: 'The Girl Next Door';
+  font-size: 24px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.text {
+  font-family: 'Cambay'
+}
+
+.footer {
+  font-family: 'Cambay';
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-about {
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul {
+  font-size: 32px;
+  font-family: 'The Girl Next Door', serif;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #7e7e7e
+}
+
+a:visted {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 110%;
+}
