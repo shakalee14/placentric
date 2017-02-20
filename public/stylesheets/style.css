@@ -18,6 +18,14 @@ body {
   font-family: 'Cambay';
 }
 
+#shown {
+  display: block;
+}
+
+#hidden {
+  display: none;
+}
+
 .section-form {
   text-align: center;
 }
