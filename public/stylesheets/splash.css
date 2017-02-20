@@ -1,0 +1,48 @@
+html {
+  background: url('../images/placentapills.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Petit Formal Script';
+  opacity: .5;
+}
+
+h1 {
+   color: black;
+   font-size: 4em;
+   font-weight: bold;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.enter-button {
+  border: 2px white solid;
+  padding: 20px 60px;
+  background-color: #f4f4f4;
+  color: white;
+}
+
+.enter-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.wrapper {
+  text-align: center;
+  padding: 120px 0;
+  text-align: center;
+}
+
+a {
+  font-size: 1.75em;
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
