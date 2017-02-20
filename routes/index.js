@@ -3,6 +3,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  res.render('splash-page', { title: 'Placentric' });
+});
+
+router.get('/home', function(req, res, next) {
   res.render('index', { title: 'Placentric' });
 });
 

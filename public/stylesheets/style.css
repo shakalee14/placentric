@@ -4,6 +4,10 @@ body {
   font-family: 'Short Stack';
 }
 
+.enter-button {
+  border: 2px white solid;
+}
+
 .header {
   font-size: 56px;
   margin: 0 auto;
@@ -53,8 +57,6 @@ body {
 .facebook-link {
   text-align: center;
 }
-
-
 
 .profile-pic {
   width: 300px;
@@ -106,11 +108,10 @@ a {
   color: #7e7e7e
 }
 
-a:visted {
-  text-decoration: none;
+a:hover {
+  font-weight: bold;
 }
 
-a:hover {
-  text-decoration: underline;
-  font-size: 110%;
+a:visted {
+  text-decoration: none;
 }
