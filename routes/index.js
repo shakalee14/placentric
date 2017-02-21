@@ -3,11 +3,11 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('splash-page', { title: 'Placentric' });
+  res.render('splash-page', { title: 'La Placenta' });
 });
 
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Placentric' });
+  res.render('index');
 });
 
 router.get('/about', function(req, res, next) {
