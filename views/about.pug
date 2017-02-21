@@ -3,12 +3,20 @@ extends layout
 block content
   .section
     include navbar.pug
+  .section-about-pictures
+    img(class='profile-pic' src='./images/love-umbilical.png' alt='placentapicture')
+    img(class='profile-pic' src='./images/profile.jpg' alt='profilepicture')
+  .section-about-text
+    .section-about
+      p(class="services-header") What is Placenta Encapsulation?
+        p(class='services-text')  Placentophagy is a natural nutritional supplement after giving birth. The purpose is to return the beneficial nutrients to the body such as vitamins, minerals, hormones, proteins and iron. The benefits of placenta consumption are supported by ongoing research but have not been evaluated by the Food and Drug Administration. Studies show restoring these important nutrients provides a quicker healing process for a more balanced body function. Anectodal evidence confirms placenta medicine prevents or decreases postpartum depression, increases breast-milk production, increases energy levels and overall well being.
+        br
+        p(class='services-text')  La Placenta services is not a pharmacy, holistic practitioner, herbalist, or medical doctor. Services and fees are for the preparation and encapsulation of placenta. No specific benefits or effects are promised and will vary per person.
 
-  .section-about
-    h1 Darlene Nava Muñoz, Full Spectrum Doula
-    p.text Darlene Nava Muñoz is a full spectrum doula trained by established doula collectives and encapsulation trainings in the Bay area. Darlene has encapsulated a dozen placentas, the first half of them under direct supervision. La Placenta is a holistic healing service provider that is dedicated to be spiritually aligned and intentional while working with the energy of your placenta.
+    .section-about
+      p(class='services-header') Darlene Nava Muñoz, Full Spectrum Doula
+        p(class='services-text') Darlene Nava Muñoz is a full spectrum doula trained by established #[a( class='services-link' href='https://bayareadoulaproject.org' ) doula collectives] and #[a( class='services-link' href='https://aurorabirthjourney.com/trainings/') encapsulation trainings] in the Bay area. Darlene has encapsulated a dozen placentas, the first half of them under direct supervision. La Placenta is a holistic healing service provider that is dedicated to be spiritually aligned and intentional while working with the energy of your placenta.
 
-    img( class='profile-pic' src='./images/profile.jpg' alt='profilepicture')
 
   .section
     include footer.pug

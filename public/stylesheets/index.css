@@ -4,13 +4,24 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'The Girl Next Door', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .header {
+  font-family: 'Petit Formal Script';
+  opacity: .5;
   font-size: 56px;
   margin: 0 auto;
   text-align: left;
+}
+
+h1 {
+   color: black;
+   font-size: 4em;
+   font-weight: bold;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
 }
 
 .section {
@@ -33,14 +44,12 @@ html {
 }
 
 .sub-header {
-  font-family: 'The Girl Next Door';
   font-size: 24px;
   margin: 10px auto;
   text-align: left;
 }
 
 .footer {
-  font-family: 'Cambay';
   font-size: 16px;
   margin: 0 auto;
   text-align: left;
@@ -49,7 +58,6 @@ html {
 
 ul {
   font-size: 32px;
-  font-family: 'The Girl Next Door', serif;
   list-style: none;
   -webkit-padding-start: 0;
 }

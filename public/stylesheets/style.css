@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   color: #7e7e7e;
-  font-family: 'Short Stack';
+  font-family: 'Lato';
 }
 
 .enter-button {
@@ -15,7 +15,12 @@ body {
 }
 
 .services-text {
-  font-family: 'Cambay';
+  font-size: 16px;
+}
+
+.services-icon {
+  width: 70px;
+  height: 70px;
 }
 
 #shown {
@@ -41,21 +46,27 @@ body {
 }
 
 .section-quote {
-  margin: 0 auto;
+  margin: 50px auto;
+  padding: 25px;
   text-align: center;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: auto;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .section-quote img {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: auto
 }
 
 .section-quote:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.section-quote-text {
+  font-size: 12px;
+
 }
 
 #header {
@@ -67,7 +78,7 @@ body {
 }
 
 .profile-pic {
-  width: 300px;
+  width: 200px;
   height: auto;
 }
 
@@ -80,31 +91,48 @@ body {
 }
 
 .sub-header {
-  font-family: 'The Girl Next Door';
   font-size: 24px;
   margin: 10px auto;
   text-align: center;
 }
 
-.text {
-  font-family: 'Cambay'
-}
-
 .footer {
-  font-family: 'Cambay';
   font-size: 16px;
   margin: 0 auto;
   text-align: center;
 }
 
 .section-about {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
+}
+
+.section-about p {
+  margin: 30px;
+  line-height: 30px;
+}
+
+.services-link {
+  text-decoration: underline;
+}
+
+.section-about-pictures {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-about-pictures img {
+  width: auto;
+  height: 200px;
+}
+
+.section-about-text {
+  display: flex;
 }
 
 ul {
   font-size: 32px;
-  font-family: 'The Girl Next Door', serif;
   list-style: none;
   display: flex;
   justify-content: space-around;
