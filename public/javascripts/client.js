@@ -5,5 +5,4 @@ $( document ).ready(function() {
   $('.section h2 p').hover(function() {
 	   $(this).children('h2').stop(true, false, true).slideToggle(300);
    });
-
 });
