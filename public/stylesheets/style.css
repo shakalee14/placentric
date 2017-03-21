@@ -9,9 +9,8 @@ body {
 }
 
 .header {
-  font-size: 56px;
+  font-size: 40px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .services-text {
@@ -41,8 +40,8 @@ body {
 }
 
 .facebook-icon {
-  width: 10%;
-  height: 10%;
+  width: 5%;
+  height: 5%;
 }
 
 .section-quote {
@@ -69,10 +68,6 @@ body {
 
 }
 
-#header {
-  position: relative;
-}
-
 .facebook-link {
   text-align: center;
 }
@@ -97,8 +92,7 @@ body {
 }
 
 .footer {
-  font-size: 16px;
-  margin: 0 auto;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -131,11 +125,22 @@ body {
   display: flex;
 }
 
+#header.section {
+  font-size: 14px;
+  position: fixed;
+  margin-bottom: 25px;
+}
+
 ul {
-  font-size: 32px;
+  font-size: 16px;
   list-style: none;
+  text-transform: uppercase;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+ul li {
+  margin: 5px;
 }
 
 a {
@@ -145,7 +150,7 @@ a {
 }
 
 a:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 a:visted {

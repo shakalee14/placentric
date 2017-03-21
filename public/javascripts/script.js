@@ -12,3 +12,7 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("services").style.display = "block";
 }
+
+$(document).ready(function(){
+  $("#myModal").modal('show');
+});

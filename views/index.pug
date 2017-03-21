@@ -3,13 +3,19 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/index.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
     link(href="https://fonts.googleapis.com/css?family=Lato|Petit+Formal+Script" rel="stylesheet")
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
   body
   #header.section
     h1.header La Placenta
     br
-    h3 Placenta Encapsulation Services
+    h2 Placenta Encapsulation Services
+    h3 by Darlene Nava Muñoz
     include navbar.pug
-  .section
-  .section
-    include footer.pug
+    .section
+      //- include modal.pug
+  //- .section
+  //-   include modal.pug
+  //- .section
+  //-   include footer.pug
