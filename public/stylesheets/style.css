@@ -170,7 +170,7 @@ main .row .row {
 }
 
 .wrap {
-    background-image: url('./images/cover.png');
+    background-image: url('../images/cover.png');
     background-repeat: no-repeat;
     background-position: cover;
     text-align: center;
