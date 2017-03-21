@@ -1,0 +1,36 @@
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .wrap-coupon {
+    font-size: 1em;
+    letter-spacing: 5px;
+    border: 2px #FFB2E6 solid;
+    color: white;
+    padding: 5%;
+    background-color: #FFB2E6;
+  }
+
+  .facebook-icon {
+      width: 50px;
+  }
+
+  .wrap-coupon a {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  .wrap h2 {
+      font-size: 2em;
+      letter-spacing: 2px;
+  }
+
+  .wrap h4 {
+      font-size: 1em;
+      letter-spacing: 1px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+}
