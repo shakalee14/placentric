@@ -186,7 +186,7 @@ main .row .row {
     background-image: url('../images/cover.png');
     background-repeat: no-repeat;
     background-position: cover;
-    text-align: center;
+    text-align: left;
     margin: 10%;
     font-family: 'Dosis';
     padding: 20%;
@@ -212,11 +212,13 @@ main .row .row {
 }
 
 .wrap h2 {
+    padding-left: 5%;
     font-size: 4em;
     letter-spacing: 10px;
 }
 
 .wrap h4 {
+    padding-left: 5%;
     font-size: 1.5em;
     letter-spacing: 10px;
 }
@@ -256,7 +258,7 @@ main .row .row {
 main h2 {
     font-size: 60px;
     margin-bottom: 50px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -267,7 +269,7 @@ main h2 {
 ==============================*/
 footer a {
     background: rgb(255, 69, 69);
-    text-align: center;
+    text-align: left;
     padding: 50px 0;
     color: #fff;
     font-size: 30px;
