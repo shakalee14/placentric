@@ -29,8 +29,13 @@ and (max-device-width : 568px) {
       letter-spacing: 1px;
   }
 
-  .contact-form {
+  div#Media.row {
     width: 100%;
+  }
+
+  .typeform-widget {
+    width: 100%;
+    height: 500px;
   }
 
 }
